@@ -1,0 +1,29 @@
+{% extends 'app/includes/layout.html' %}
+{% load static %}
+
+{% block css %} 
+    <link rel="stylesheet" href="{% static 'app/index.css' %}">
+{% endblock css %} 
+
+{% block title %}
+Podstawy programowania i elektroniki
+{% endblock title %}
+
+
+
+{% block content %}
+    <div id="container">
+        {% include 'app/includes/header.html' %}
+
+        <main>
+            <div class="posts">
+                <div class="caption"><h3>Latest Posts</h3></div>
+            </div>
+        </main>
+        <aside>
+
+        </aside>
+    </div>  
+
+{% endblock  %}
+ 

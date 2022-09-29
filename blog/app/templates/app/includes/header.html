@@ -1,0 +1,17 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'app/includes/header.css' %}">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+</style>
+
+<header>
+    <div class="title">
+        <img src="{% static 'app/images/circuit.png' %}" alt="">
+        <h2><a href="/">Podstawy programowania i elektroniki</a></h2>
+    </div>
+    <div class="access">
+        <div class="login"><a href="http://">Login</a></div>
+        <div class="sign"><a href="http://">Sign up</a></div>
+    </div>
+    <div class="dropdown"></div>
+</header>
